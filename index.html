@@ -8,6 +8,21 @@
   <body>
     <h1>このページはチャットを埋め込んでいて、チャットできます。</h1>
     <a href="https://yoshihisatanaka-prog.github.io/ZohoNgPage/">チェットできないページへ</a>
-    <script type="text/javascript" id="zsiqchat">var $zoho=$zoho || {};$zoho.salesiq = $zoho.salesiq || {widgetcode: "d30037192ca4ca1b2fd70380f5247bc8e62aa78b81354cd994ea78641b713a52", values:{},ready:function(){}};var d=document;s=d.createElement("script");s.type="text/javascript";s.id="zsiqscript";s.defer=true;s.src="https://salesiq.zohopublic.jp/widget";t=d.getElementsByTagName("script")[0];t.parentNode.insertBefore(s,t);</script>
+    <script type="text/javascript" id="zsiqchat">
+	    var $zoho=$zoho || {};
+	    $zoho.salesiq = $zoho.salesiq || {widgetcode: "d30037192ca4ca1b2fd70380f5247bc8e62aa78b81354cd994ea78641b713a52", values:{},ready:function(){}};
+	    var d=document;
+	    s=d.createElement("script");
+	    s.type="text/javascript";
+	    s.id="zsiqscript";
+	    s.defer=true;
+	    s.src="https://salesiq.zohopublic.jp/widget";
+	    t=d.getElementsByTagName("script")[0];
+	    t.parentNode.insertBefore(s,t);
+	    $zoho.salesiq.ready = function(embedinfo){
+		    $soho.salesiq.floatwindow.visible("hide");
+		    $soho.salesiq.floatbutton.visible("hide");
+	    }
+    </script>
   </body>
 </html>
